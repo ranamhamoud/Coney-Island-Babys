@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif;
+background-color: black;}
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position:static;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+   width:130px;
+  height:100px;
+  -ms-transform:rotate(270deg); /* IE 9 */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari and Chrome */
+  -o-transform:rotate(270deg); /* Opera */
+}
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="#home">Home</a>
+  <a href="#services">Reviews</a>
+  <a href="#clients">Playlists</a>
+  <a href="#contact">News</a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-spotify"></a>
+</div>
+</body>
+</html> 
